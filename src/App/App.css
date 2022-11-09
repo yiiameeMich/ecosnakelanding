@@ -1,0 +1,12 @@
+.App{
+    background-color: #f4f2dd;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.container {
+    max-width: 1540px;
+    margin: 0 auto;
+}
+

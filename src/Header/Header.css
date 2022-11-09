@@ -1,0 +1,36 @@
+.main-text {
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 40px;
+}
+
+.primary-text {
+    font-family: 'Slabo 13px', serif;
+    font-size: 20px;
+}
+
+.header-link {
+    text-decoration: none;
+    color: #000;
+    margin: 0 50px;
+}
+
+.header-link:hover{
+    text-decoration: underline;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 150px;
+}
+
+.links-container {
+    display:flex;
+    flex-direction: row;
+}
+
+.hamburger {
+    display: none;
+}
