@@ -1,21 +1,28 @@
-.main-text {
-    font-family: 'Kodchasan', sans-serif;
-    font-size: 40px;
-}
 
-.primary-text {
-    font-family: 'Slabo 13px', serif;
-    font-size: 20px;
+.header-logo{
+    text-decoration: none;
+    color: #000;
 }
 
 .header-link {
     text-decoration: none;
     color: #000;
-    margin: 0 50px;
+    margin: 0 40px;
+    padding: 5px 10px;
+    width: 20%;
+    text-align: center;
 }
 
 .header-link:hover{
-    text-decoration: underline;
+    background-color: #b2ae7f;
+    font-size: 20px;
+    transition: 0.5s;
+    border-radius: 5px;
+
+}
+
+.header-link:focus, .header-link:active{
+    transition: 0.7s;
 }
 
 .header-container {
@@ -29,6 +36,9 @@
 .links-container {
     display:flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
 }
 
 .hamburger {

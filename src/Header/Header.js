@@ -1,5 +1,6 @@
 import React from 'react';
 import './Header.css'
+import {Link} from "react-router-dom";
 
 export default function Header() {
 
@@ -7,13 +8,13 @@ export default function Header() {
 		<div className='container'>
 			<div className='header-container'>
 				<div className='logo-container'>
-					<h1 className='header-logo main-text'> EcoSnake </h1>
+					<Link to='/' className='header-logo main-text'> EcoSnake </Link>
 				</div>
 				<div className='links-container'>
-					<a className='header-link primary-text' href='#'> Shop All </a>
-					<a className='header-link primary-text' href='#'> Our Story </a>
-					<a className='header-link primary-text' href='#'> Blog </a>
-					<a className='header-link primary-text' href='#'> Catalog </a>
+					<Link to='/products' className='header-link primary-text' href='#'> Shop All </Link>
+					<a className='header-link primary-text' href=''> Our Story </a>
+					<a className='header-link primary-text' href=''> Blog </a>
+					<a className='header-link primary-text' href=''> Catalog </a>
 				</div>
 
 				<div className='hamburger'>

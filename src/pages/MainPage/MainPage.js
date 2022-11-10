@@ -1,5 +1,6 @@
 import React from 'react';
 import './mainpage.css'
+import {Link} from "react-router-dom";
 
 
 export default function MainPage () {
@@ -17,8 +18,11 @@ export default function MainPage () {
 						By the way, we do not test it on animals.
 					</h1>
 					<div className="btn-container">
+						<Link to='/products'>
+							<button className="mp-btn">View catalog</button>
+						</Link>
 						<button className="mp-btn">Make an order</button>
-						<button className="mp-btn">View catalog</button>
+
 					</div>
 				</div>
 				<div className="mp-img-content">
