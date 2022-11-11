@@ -8,7 +8,7 @@ export default function Header() {
 		<div className='container'>
 			<div className='header-container'>
 				<div className='logo-container'>
-					<Link to='/main' className='header-logo main-text'> EcoSnake </Link>
+					<Link to='/' className='header-logo main-text'> EcoSnake </Link>
 				</div>
 				<div className='links-container'>
 					<Link to='/products' className='header-link primary-text'> Shop All </Link>
