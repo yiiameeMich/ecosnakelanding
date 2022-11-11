@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ecosnakelanding/static/css/main.672cd87a.css",
-    "main.js": "/ecosnakelanding/static/js/main.275546db.js",
-    "static/js/787.2b0ec9a5.chunk.js": "/ecosnakelanding/static/js/787.2b0ec9a5.chunk.js",
-    "index.html": "/ecosnakelanding/index.html",
-    "main.672cd87a.css.map": "/ecosnakelanding/static/css/main.672cd87a.css.map",
-    "main.275546db.js.map": "/ecosnakelanding/static/js/main.275546db.js.map",
-    "787.2b0ec9a5.chunk.js.map": "/ecosnakelanding/static/js/787.2b0ec9a5.chunk.js.map"
+    "main.css": "/ecosnakelanding/main/static/css/main.672cd87a.css",
+    "main.js": "/ecosnakelanding/main/static/js/main.35cad0ff.js",
+    "static/js/787.2b0ec9a5.chunk.js": "/ecosnakelanding/main/static/js/787.2b0ec9a5.chunk.js",
+    "index.html": "/ecosnakelanding/main/index.html",
+    "main.672cd87a.css.map": "/ecosnakelanding/main/static/css/main.672cd87a.css.map",
+    "main.35cad0ff.js.map": "/ecosnakelanding/main/static/js/main.35cad0ff.js.map",
+    "787.2b0ec9a5.chunk.js.map": "/ecosnakelanding/main/static/js/787.2b0ec9a5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.672cd87a.css",
-    "static/js/main.275546db.js"
+    "static/js/main.35cad0ff.js"
   ]
 }
