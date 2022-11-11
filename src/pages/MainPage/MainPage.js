@@ -2,7 +2,6 @@ import React from 'react';
 import './mainpage.css'
 import {Link} from "react-router-dom";
 
-
 export default function MainPage () {
 
 	return (
@@ -21,8 +20,9 @@ export default function MainPage () {
 						<Link to='/products'>
 							<button className="mp-btn">View catalog</button>
 						</Link>
-						<button className="mp-btn">Make an order</button>
-
+						<Link to='/blog'>
+							<button className="mp-btn">Read our blog</button>
+						</Link>
 					</div>
 				</div>
 				<div className="mp-img-content">

@@ -11,9 +11,9 @@ export default function Header() {
 					<Link to='/' className='header-logo main-text'> EcoSnake </Link>
 				</div>
 				<div className='links-container'>
-					<Link to='/products' className='header-link primary-text' href='#'> Shop All </Link>
+					<Link to='/products' className='header-link primary-text'> Shop All </Link>
 					<a className='header-link primary-text' href=''> Our Story </a>
-					<a className='header-link primary-text' href=''> Blog </a>
+					<Link className='header-link primary-text' to='/blog'> Blog </Link>
 					<a className='header-link primary-text' href=''> Catalog </a>
 				</div>
 
