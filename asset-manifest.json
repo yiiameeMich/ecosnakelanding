@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ecosnakelanding/static/css/main.672cd87a.css",
+    "main.js": "/ecosnakelanding/static/js/main.bb57ce02.js",
+    "static/js/787.2b0ec9a5.chunk.js": "/ecosnakelanding/static/js/787.2b0ec9a5.chunk.js",
+    "index.html": "/ecosnakelanding/index.html",
+    "main.672cd87a.css.map": "/ecosnakelanding/static/css/main.672cd87a.css.map",
+    "main.bb57ce02.js.map": "/ecosnakelanding/static/js/main.bb57ce02.js.map",
+    "787.2b0ec9a5.chunk.js.map": "/ecosnakelanding/static/js/787.2b0ec9a5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.672cd87a.css",
+    "static/js/main.bb57ce02.js"
+  ]
+}
