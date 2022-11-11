@@ -1,7 +1,7 @@
 import './App.css';
 import Header from '../Header/Header'
 import MainPage from "../pages/MainPage/MainPage";
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+import {HashRouter as Router, Route, Switch} from 'react-router-dom'
 import ProductsPage from "../pages/ProductsPage/ProductsPage";
 import BlogPage from "../pages/BlogPage/BlogPage";
 
