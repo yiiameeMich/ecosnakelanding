@@ -5,6 +5,7 @@
 }
 
 .header-link {
+    transition: 0.7s;
     text-decoration: none;
     color: #000;
     margin: 0 40px;
