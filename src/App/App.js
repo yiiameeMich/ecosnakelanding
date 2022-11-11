@@ -12,7 +12,7 @@ function App() {
 			<Router>
 				<Header/>
 				<Switch>
-					<Route exact path='/'>
+					<Route exact path='/main'>
 						<MainPage/>
 					</Route>
 					<Route path='/products'>
