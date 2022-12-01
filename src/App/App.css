@@ -1,16 +1,18 @@
-.App{
+.App {
     height: 100vh;
 }
+
 body {
     background-color: #f4f2dd;
     background-size: cover;
     background-attachment: fixed;
+    transition: 0.3s;
 }
+
 .container {
     max-width: 1540px;
     margin: 0 auto;
 }
-
 
 section {
     padding-bottom: 80px;
@@ -28,4 +30,44 @@ section:last-child {
 .primary-text {
     font-family: 'Slabo 13px', serif;
     font-size: 20px;
+}
+
+@media (max-width: 1540px) {
+    .container {
+        max-width: 1220px;
+    }
+
+    .main-text {
+        font-size: 34px;
+    }
+}
+
+@media (max-width: 1220px) {
+    .container {
+        max-width: 998px;
+    }
+
+    .main-text {
+        font-size: 30px;
+    }
+
+    .primary-text {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 998px) {
+    .container {
+        max-width: 780px;
+    }
+
+    .primary-text {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 778px) {
+    .container {
+        max-width: none;
+    }
 }
