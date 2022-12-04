@@ -9,22 +9,26 @@ export default function ProductsSlider() {
 			name: 'Cleanser',
 			price: '$23.00',
 			description: 'Vitamin B3 + Zink',
-			image: `${process.env.PUBLIC_URL}/assets/images/product-1.png`
+			image: `${process.env.PUBLIC_URL}/assets/images/product-1.png`,
+			id: 1,
 		}, {
 			name: 'Serum',
 			price: '$32.00',
 			description: 'Q + A',
-			image: `${process.env.PUBLIC_URL}/assets/images/products-2.png`
+			image: `${process.env.PUBLIC_URL}/assets/images/products-2.png`,
+			id: 2,
 		}, {
 			name: 'Cream',
 			price: '$110.00',
 			description: '4 steps to Healthy Skin',
-			image: `${process.env.PUBLIC_URL}/assets/images/product-3.png`
+			image: `${process.env.PUBLIC_URL}/assets/images/product-3.png`,
+			id: 3,
 		}, {
 			name: 'EcoSnake set',
 			price: '$71.00',
 			description: 'Anti acne washing gel',
-			image: `${process.env.PUBLIC_URL}/assets/images/product-4.png`
+			image: `${process.env.PUBLIC_URL}/assets/images/product-4.png`,
+			id: 4,
 		}
 	];
 
@@ -35,7 +39,7 @@ export default function ProductsSlider() {
 				             description={card.description}
 				             price={card.price}
 				                               image={card.image}
-								key={productsInfo[i]}/>)
+								key={card.id}/>)
 		)
 	}
 

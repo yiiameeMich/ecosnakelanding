@@ -12,13 +12,44 @@
     align-items: center;
 }
 
+.about-image-container {
+    width: 50%;
+}
+.about-img {
+    width: 100%;
+}
 .about-text {
     width: 100%;
     font-size: 36px;
-    margin: 0 50px;
+    padding: 0 20px;
 }
 
 .about-text-1 {
     text-align: right;
+}
+
+
+@media (max-width: 1540px) {
+    .about-text {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 1220px) {
+    .about-text {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 998px) {
+    .about-text {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 778px) {
+    .about-text {
+        font-size: 16px;
+    }
 }
 

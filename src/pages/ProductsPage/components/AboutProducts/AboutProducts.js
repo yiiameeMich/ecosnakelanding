@@ -8,8 +8,8 @@ export default function AboutProducts () {
 			<div className="about-container">
 				<div className="about-text-container">
 					<h1 className="about-text about-text-1 primary-text">
-						Here you will find products <br />
-						for all night and day steps <br/>
+						Here you will find products
+						for all night and day steps
 						and for all skin types.
 					</h1>
 				</div>
@@ -24,9 +24,10 @@ export default function AboutProducts () {
 				</div>
 				<div className="about-text-container">
 					<h1 className="about-text about-text-2 primary-text">
-						You can be sure that <br />
-						with us you will be able <br/>to find a product
-						<br/>that is perfect for your skin.
+						You can be sure that
+						with us you will be able
+						to find a product
+						that is perfect for your skin.
 					</h1>
 				</div>
 			</div>

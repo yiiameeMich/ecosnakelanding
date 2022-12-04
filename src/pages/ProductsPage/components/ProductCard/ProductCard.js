@@ -1,7 +1,6 @@
 import React from 'react';
 import './productscard.css'
 
-
 export default function ProductCard ({name, price, description, image}) {
 
 	return (
