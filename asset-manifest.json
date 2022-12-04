@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ecosnakelanding/static/css/main.672cd87a.css",
-    "main.js": "/ecosnakelanding/static/js/main.275546db.js",
+    "main.css": "/ecosnakelanding/static/css/main.23e93084.css",
+    "main.js": "/ecosnakelanding/static/js/main.870106af.js",
     "static/js/787.2b0ec9a5.chunk.js": "/ecosnakelanding/static/js/787.2b0ec9a5.chunk.js",
     "index.html": "/ecosnakelanding/index.html",
-    "main.672cd87a.css.map": "/ecosnakelanding/static/css/main.672cd87a.css.map",
-    "main.275546db.js.map": "/ecosnakelanding/static/js/main.275546db.js.map",
+    "main.23e93084.css.map": "/ecosnakelanding/static/css/main.23e93084.css.map",
+    "main.870106af.js.map": "/ecosnakelanding/static/js/main.870106af.js.map",
     "787.2b0ec9a5.chunk.js.map": "/ecosnakelanding/static/js/787.2b0ec9a5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.672cd87a.css",
-    "static/js/main.275546db.js"
+    "static/css/main.23e93084.css",
+    "static/js/main.870106af.js"
   ]
 }
